@@ -6,7 +6,7 @@ Transfer-learning image classifier (MobileNetV3-Large) served through FastAPI wi
 **Live API:** <RENDER_URL>/docs  (health: <RENDER_URL>/health)
 
 ## Problem statement
-<Write 3-4 lines: who would use this, and what a wrong prediction costs them.>
+This app helps a restaurant or food-delivery platform automatically tag menu item photos. A wrong prediction means a dish gets mislabeled in the menu, so customers may order something they didn’t expect, causing complaints and refunds. Users: restaurant staff uploading photos.
 
 ## Dataset
 - Source: <Kaggle/Hugging Face link>
@@ -26,7 +26,7 @@ Training curves: `artifacts/curves.png` | Confusion matrix: `artifacts/confusion
 <Summarise 10+ wrong predictions and why you think they happened: look-alike dishes, bad lighting, multiple dishes in one photo, etc.>
 
 ## Screenshots
-<Add app screenshots, curves and confusion matrix here>
+In assets
 
 ## Run it yourself
 ```bash
