@@ -1,0 +1,7 @@
+data/
+artifacts/best.pt
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
